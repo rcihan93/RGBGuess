@@ -1,0 +1,83 @@
+#container{
+	max-width: 900px;
+	margin: 10px auto;
+}
+
+#statusContainer{
+	text-align: center;
+	background: white;
+	height: 30px;
+	color: steelblue;
+
+}
+.square{
+	margin: 1.5%;
+	width: 22%;
+	padding-bottom: 20%;
+	background: purple;
+	float: left;
+	border-radius: 15%;
+	transition: background 0.6s;
+
+}
+.square:hover{
+	border-radius: 40%;
+	transition: all 0.6s;
+}
+body{
+	background-color: black;
+	margin:0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#h1{
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	line-height: 1.1;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 10px 0;
+	margin: 0;
+}
+#selected{
+	font-size: 200%;
+}
+#newGame{
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	color: steelblue;
+}
+#welcome{
+	color: steelblue;
+	width: 20%;
+}
+.selectedGame{
+	color: white;
+	background: steelblue; 
+}
+span{
+	margin: 7%;
+	padding-bottom: 5%;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%
+	font-weight:700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition:all 0.3s;
+	outline: none;
+
+}
+button:hover{
+	background: steelblue;
+	color: white;
+}
